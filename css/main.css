@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+}
+
+.label {
+    text-shadow: 10px 5px white;
+}
+
+.product-form {
+
+    background-color: beige;
+    box-shadow: 10px 10px black;
+}
+
+.addbtn {
+    background-color: #8DB4DD;
+   margin-left: 75%;
+}
+
+.sBtn{
+    background-color: #8DB4DD;
+}

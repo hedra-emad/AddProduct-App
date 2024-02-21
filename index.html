@@ -1,0 +1,50 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <h1 class="label mt-3 m-auto w-25">Add Product</h1>
+    <div class="product-form form-control w-75 m-auto mt-3">
+        <label for="" class="my-2">Product Name </label>
+        <input id='prName' class="form-control" type="text">
+        <label for="" class="my-2">Product Price</label>
+        <input id='prPrice' class="form-control" type="number">
+        <label for="" class="my-2">Product Category</label>
+        <input id='prCat' class="form-control" type="text">
+        <label for="" class="my-2">Product Description</label>
+        <textarea id="prDesc" class="form-control"></textarea>
+        <button onclick="" id='addbtn' class=" addbtn btn-primary btn  my-3 w-25">Add Product</button>
+     <div class="clear"></div>
+        <input id="searchInput" class="form-control mb-3 mt-2" type="text" placeholder="Search By Name ..." >
+    </div>
+    
+    <div class="m-auto w-75 p-5">
+        <table class="table">
+            <thead>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Category</th>
+                <th>Product Description</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </thead>
+            <tbody id="tabody">
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+<!--Script-->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
